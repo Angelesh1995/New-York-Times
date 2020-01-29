@@ -20,7 +20,6 @@ nav {
   margin: 10px;
 }
 
-
 .menuList {
   display: inline-block;
 }
@@ -134,4 +133,13 @@ nav {
   width: 88%;
   padding: 0 1%;
   float: left;
+}
+
+.main-title {
+  max-width: 560px;
+  width: 100%;
+  display: block;
+  margin:50px auto;
+  font-size: 40px;
+  font-style: italic;
 }
