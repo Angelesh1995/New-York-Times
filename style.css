@@ -272,6 +272,58 @@ a {
   font-size: 13px;
 }
 
-.footerWrapper-logo {
-  height: 33px;
+.footerWrapper {
+  text-align: start;
+  margin-top: 50px;
 }
+
+#go-home-link {
+  color: #567b95;
+    font-family: nyt-franklin;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+}
+
+.display-in-line-block {
+  display:inline-block;
+}
+
+.menuLogo-bottom {
+  height: 30px;
+  padding-top: 10px;
+  text-decoration: none;
+  margin: 10px;
+  margin-right: 1000px; 
+}
+
+footer li {
+  padding: 0 6px;
+}
+
+.displaytable {
+
+}
+
+.bold-subtitle {
+  color: #333;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  margin: 0;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+.footerinnersubtitle {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  display: inline-block;
+}
+
+
