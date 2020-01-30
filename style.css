@@ -313,7 +313,7 @@ footer li {
   vertical-align: top;
   padding: 10px;
   margin: 0 auto;
-  width: 16%;
+  width: 10%;
 }
 
 .bold-subtitle {
@@ -322,7 +322,7 @@ footer li {
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   height: 25px;
-  line-height: 15px;
+  line-height: 50px;
   margin: 0;
   text-transform: uppercase;
   width: 150px;
@@ -330,9 +330,11 @@ footer li {
 
 .sub-bold-subtitle {
   color: #333;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+  display: inline-block;
 }
 
 .footerinnersubtitle {
@@ -342,6 +344,11 @@ footer li {
   line-height: 16px;
   display: inline-block;
   height: 23px;
+  
+}
+.footerLink {
+  color: #000;
+  text-decoration: none;
 }
 
 
