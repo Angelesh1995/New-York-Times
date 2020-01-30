@@ -261,7 +261,14 @@ a {
   height: 1px;
   background: #cdcdcd;
 }
-
+.editors-choice{
+  width: 300px;
+  right: -300px;
+  top: -100px;
+}
+.editors-choice h4{
+  border-bottom:1px solid #cdcdcd
+}
 .inline-image {
   max-width: 850px;
   display: block;
