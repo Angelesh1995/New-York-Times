@@ -273,8 +273,9 @@ a {
 }
 
 .footerWrapper {
-  text-align: start;
-  margin-top: 50px;
+  padding: 1rem;
+  border-top: 1px solid #dbdbdb;
+  letter-spacing: 1px;
 }
 
 #go-home-link {
@@ -298,12 +299,21 @@ a {
   margin-right: 1000px; 
 }
 
+  ul {
+    list-style-type: none;
+  }
+
+
 footer li {
   padding: 0 6px;
 }
 
 .displaytable {
-
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px;
+  margin: 0 auto;
+  width: 16%;
 }
 
 .bold-subtitle {
@@ -318,12 +328,20 @@ footer li {
   width: 150px;
 }
 
+.sub-bold-subtitle {
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .footerinnersubtitle {
   color: #000;
   text-decoration: none;
   font-size: 14px;
   line-height: 16px;
   display: inline-block;
+  height: 23px;
 }
 
 
