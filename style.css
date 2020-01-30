@@ -54,6 +54,7 @@ nav {
 }
 a {
   color: #567b95;
+  text-decoration: none;
 }
 
 .clear {
@@ -232,8 +233,11 @@ a {
   width: 100%;
   padding: 20px 0;
   margin: 20px 0;
-  text-align: center;
   font-size: 17px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .unlock-article::before {
@@ -261,14 +265,29 @@ a {
   height: 1px;
   background: #cdcdcd;
 }
-.editors-choice{
-  width: 300px;
+
+.editors-choice {
+  width: 250px;
   right: -300px;
-  top: -100px;
+  top: -250px;
+  position: absolute;
 }
-.editors-choice h4{
-  border-bottom:1px solid #cdcdcd
+
+.editors-choice a {
+  font-size: 11px;
+  text-decoration: none;
+  color: #272727;
 }
+
+.editors-choice .row {
+  margin: 10px 0;
+}
+
+.editors-choice h4 {
+  padding: 10px 0;
+  border-bottom: 1px solid #cdcdcd;
+}
+
 .inline-image {
   max-width: 850px;
   display: block;
@@ -287,15 +306,15 @@ a {
 
 #go-home-link {
   color: #567b95;
-    font-family: nyt-franklin;
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 11px;
+  font-family: nyt-franklin;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
 }
 
 .display-in-line-block {
-  display:inline-block;
+  display: inline-block;
 }
 
 .menuLogo-bottom {
@@ -303,13 +322,12 @@ a {
   padding-top: 10px;
   text-decoration: none;
   margin: 10px;
-  margin-right: 1000px; 
+  margin-right: 1000px;
 }
 
-  ul {
-    list-style-type: none;
-  }
-
+ul {
+  list-style-type: none;
+}
 
 footer li {
   padding: 0 6px;
@@ -358,4 +376,130 @@ footer li {
   text-decoration: none;
 }
 
+.wrap-theory {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 100;
+  width: 960px;
+  display:block;
+  margin:10px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.theory-by {
+  padding: 14px 0;
+  margin: 20px 0 15px 0;
+  position: relative;
+}
+
+.theory-by:before {
+  width:120px;
+  height: 2px;
+  background:#727272;
+  top:0;
+  left:0;
+  content: "";
+  position: absolute;
+}
+
+.one-theory {
+  width: 24%;
+  float: left;
+  margin:0 1% 0 0;
+}
+
+.theory-img-one,
+.theory-img-two,
+.theory-img-three,
+.theory-img-five,
+.theory-img-four,
+.theory-img-six,
+.theory-img-seven,
+.theory-img-eight
+ {
+  margin:0 0 12px 0;
+  padding:0;
+  width:100%;
+  height:140px;
+}
+
+.theory-img-one {
+  background-image: url('images/inflation-945.png');
+  background-repeat: no-repeat;
+  background-size: 960px 640px;
+  background-position: 0 0;
+}
+
+.theory-img-two {
+  background-image: url('images/inflation-945.png');
+  background-repeat: no-repeat;
+  background-size: 960px 640px;
+  background-position: -240px 0;
+}
+
+.theory-img-three {
+  background-image: url('images/inflation-945.png');
+  background-repeat: no-repeat;
+  background-size: 960px 640px;
+  background-position: -480px 0;
+}
+
+.theory-img-four {
+  background-image: url('images/inflation-945.png');
+  background-repeat: no-repeat;
+  background-size: 960px 640px;
+  background-position: -730px 0;
+}
+
+.theory-img-five {
+  background-image: url('images/inflation-945.png');
+  background-repeat: no-repeat;
+  background-size: 960px 640px;
+  background-position: 0 -320px;
+}
+
+.theory-img-six {
+  background-image: url('images/inflation-945.png');
+  background-repeat: no-repeat;
+  background-size: 960px 640px;
+  background-position: -220px -320px;
+}
+
+.theory-img-seven {
+  background-image: url('images/inflation-945.png');
+  background-repeat: no-repeat;
+  background-size: 960px 640px;
+  background-position: -480px -320px;
+}
+
+.theory-img-eight {
+  background-image: url('images/inflation-945.png');
+  background-repeat: no-repeat;
+  background-size: 960px 640px;
+  background-position: -730px -320px;
+}
+
+.written-by {
+  font-size: 13px
+}
+
+.wrap-social-media a {
+  padding:3px 14px!important;
+  margin: 0 6px;
+  position: relative;
+  border-radius: 50%;
+  background: #e9e9e9;
+}
+
+.wrap-social-media i {
+  font-size:12px;
+  position: absolute;
+  top:10px;
+  left:6px;
+  margin-left:2px;
+  color:#343434
+}
+
+.wrap-social-media a:hover {
+  background: #ffffff;
+}
