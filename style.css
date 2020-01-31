@@ -448,61 +448,40 @@ footer li {
   padding: 0;
   width: 100%;
   height: 140px;
-}
-
-.theory-img-one {
   background-image: url('images/inflation-945.png');
   background-repeat: no-repeat;
   background-size: 960px 640px;
+}
+
+.theory-img-one {
   background-position: 0 0;
 }
 
 .theory-img-two {
-  background-image: url('images/inflation-945.png');
-  background-repeat: no-repeat;
-  background-size: 960px 640px;
   background-position: -240px 0;
 }
 
 .theory-img-three {
-  background-image: url('images/inflation-945.png');
-  background-repeat: no-repeat;
-  background-size: 960px 640px;
   background-position: -480px 0;
 }
 
 .theory-img-four {
-  background-image: url('images/inflation-945.png');
-  background-repeat: no-repeat;
-  background-size: 960px 640px;
   background-position: -730px 0;
 }
 
 .theory-img-five {
-  background-image: url('images/inflation-945.png');
-  background-repeat: no-repeat;
-  background-size: 960px 640px;
   background-position: 0 -320px;
 }
 
 .theory-img-six {
-  background-image: url('images/inflation-945.png');
-  background-repeat: no-repeat;
-  background-size: 960px 640px;
   background-position: -220px -320px;
 }
 
 .theory-img-seven {
-  background-image: url('images/inflation-945.png');
-  background-repeat: no-repeat;
-  background-size: 960px 640px;
   background-position: -480px -320px;
 }
 
 .theory-img-eight {
-  background-image: url('images/inflation-945.png');
-  background-repeat: no-repeat;
-  background-size: 960px 640px;
   background-position: -730px -320px;
 }
 
