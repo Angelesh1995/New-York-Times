@@ -5,6 +5,8 @@ This project consists of cloning the New York Times Newspaper using HTML and CSS
 - HTML
 - CSS
 
+Link to live page
+https://raw.githack.com/Angelesh1995/New-York-Times/development/index.html
 
 # Authors
 👤 Gilles Kagarama
