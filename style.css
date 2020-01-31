@@ -42,7 +42,7 @@ nav {
 }
 
 .subscribeBtn {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   background: #567b95;
   border: 1px solid #326891;
   font-size: 11px;
@@ -52,6 +52,7 @@ nav {
   padding: 7px;
   border-radius: 10%;
 }
+
 a {
   color: #567b95;
   text-decoration: none;
@@ -306,7 +307,7 @@ a {
 
 #go-home-link {
   color: #567b95;
-  font-family: nyt-franklin;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
@@ -349,7 +350,6 @@ footer li {
   height: 25px;
   line-height: 50px;
   margin: 0;
-  text-transform: uppercase;
   width: 150px;
 }
 
@@ -369,20 +369,48 @@ footer li {
   line-height: 16px;
   display: inline-block;
   height: 23px;
-  
 }
-.footerLink {
+
+.footerinnersubtitle2 {
   color: #000;
   text-decoration: none;
+  font-size: 10px;
+  line-height: 16px;
+  display: inline-block;
+  height: 23px;
 }
+
+.fa {
+  color: #000;
+}
+
+.footerBorderBottom {
+  border: 1px solid #eee;
+  display: block;
+}
+
+.innerfooterBorderBottom {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  display: inline-block;
+  margin-right: 0 10px;
+  padding: 10px 10px 10px 10px;
+
+}
+
+/*.footerLink {
+  color: #000;
+  text-decoration: none;
+}*/
 
 .wrap-theory {
   font-size: 13px;
   line-height: 16px;
   font-weight: 100;
   width: 960px;
-  display:block;
-  margin:10px auto;
+  display: block;
+  margin: 10px auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -393,11 +421,11 @@ footer li {
 }
 
 .theory-by:before {
-  width:120px;
+  width: 120px;
   height: 2px;
-  background:#727272;
-  top:0;
-  left:0;
+  background: #727272;
+  top: 0;
+  left: 0;
   content: "";
   position: absolute;
 }
@@ -405,7 +433,7 @@ footer li {
 .one-theory {
   width: 24%;
   float: left;
-  margin:0 1% 0 0;
+  margin: 0 1% 0 0;
 }
 
 .theory-img-one,
@@ -415,12 +443,11 @@ footer li {
 .theory-img-four,
 .theory-img-six,
 .theory-img-seven,
-.theory-img-eight
- {
-  margin:0 0 12px 0;
-  padding:0;
-  width:100%;
-  height:140px;
+.theory-img-eight {
+  margin: 0 0 12px 0;
+  padding: 0;
+  width: 100%;
+  height: 140px;
 }
 
 .theory-img-one {
@@ -484,7 +511,7 @@ footer li {
 }
 
 .wrap-social-media a {
-  padding:3px 14px!important;
+  padding: 3px 14px !important;
   margin: 0 6px;
   position: relative;
   border-radius: 50%;
@@ -492,14 +519,18 @@ footer li {
 }
 
 .wrap-social-media i {
-  font-size:12px;
+  font-size: 12px;
   position: absolute;
-  top:10px;
-  left:6px;
-  margin-left:2px;
-  color:#343434
+  top: 10px;
+  left: 6px;
+  margin-left: 2px;
+  color: #343434
 }
 
 .wrap-social-media a:hover {
   background: #ffffff;
+}
+
+.bottom-bar {
+  border: 1px solid #eee;
 }
