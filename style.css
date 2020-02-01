@@ -532,6 +532,7 @@ footer li {
   margin-right: 1%;
   margin-bottom: 15px;
 }
+
 .more-article-box .platform {
   font-size: 10px;
   color: #878787;
@@ -554,8 +555,8 @@ footer li {
 
 .popular-articles li {
   margin: 0;
-  padding:15px 0;
-  border-bottom:1px solid #797979
+  padding: 15px 0;
+  border-bottom: 1px solid #797979
 }
 
 .popular-articles li a {
@@ -565,35 +566,37 @@ footer li {
 
 .save-icon {
   position: relative;
-  margin:0!important;
-  padding:0!important;
-  background: none!important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: none !important;
 }
 
 .save-icon img {
   position: relative;
-  top:3px;
-  width:25px;
+  top: 3px;
+  width: 25px;
 }
 
 .comment-icon {
   position: relative;
-  margin:0!important;
-  padding:0!important;
-  background: none!important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: none !important;
 }
 
 .comment-icon img {
   position: relative;
-  top:3px;
-  width:25px;
+  top: 3px;
+  width: 25px;
 }
 
-.comment-icon span{
+.comment-icon span {
   position: absolute;
-  top:5px;left:0;right:0;
+  top: 5px;
+  left: 0;
+  right: 0;
   display: block;
-  margin:0 auto;
-  font-size:9px;
+  margin: 0 auto;
+  font-size: 9px;
   text-align: center;
 }
