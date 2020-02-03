@@ -330,8 +330,7 @@ aside {
   height: 30px;
   padding-top: 10px;
   text-decoration: none;
-  margin: 10px;
-  margin-right: 1000px;
+  margin: 10px 10px 10px -15px;
 }
 
 ul {
@@ -345,9 +344,25 @@ footer li {
 .displaytable {
   display: table-cell;
   vertical-align: top;
-  padding: 10px;
-  margin: 0 auto;
+  padding: 10px 10px;
   width: 10%;
+}
+
+.popular-articles li {
+  margin: 0;
+  padding: 15px 0;
+  border-bottom: 1px solid #797979;
+}
+
+.displaytable ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.displaytable ul li {
+  margin: 0;
+  padding: 0;
 }
 
 .bold-subtitle {
@@ -355,9 +370,8 @@ footer li {
   font-size: 13px;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
-  height: 25px;
+  height: 30px;
   line-height: 50px;
-  margin: 0;
   width: 150px;
 }
 
@@ -377,6 +391,7 @@ footer li {
   line-height: 16px;
   display: inline-block;
   height: 23px;
+  text-align: start;
 }
 
 .footerinnersubtitle2 {
@@ -402,8 +417,7 @@ footer li {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
   display: inline-block;
-  margin-right: 0 10px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 5px 10px 5px;
 }
 
 .wrap-theory {
@@ -548,12 +562,6 @@ footer li {
   padding: 0;
 }
 
-.popular-articles li {
-  margin: 0;
-  padding: 15px 0;
-  border-bottom: 1px solid #797979;
-}
-
 .popular-articles li a {
   font-size: 16px;
   color: #121211;
@@ -601,7 +609,7 @@ footer li {
 }
 
 .footerMenuContainer {
-  padding-left: 80px;
+  padding-left: 5px;
 }
 
 .fixed-footer {
