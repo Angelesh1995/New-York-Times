@@ -310,6 +310,7 @@ aside {
   padding: 1rem;
   border-top: 1px solid #dbdbdb;
   letter-spacing: 1px;
+  margin-bottom: 70px;
 }
 
 #go-home-link {
@@ -531,6 +532,10 @@ footer li {
 .more-article-box h5 {
   font-weight: 200;
   font-size: 18px;
+}
+
+.more-article-box a {
+  color: #121212;
 }
 
 .more-article-box .timestamp {
