@@ -71,11 +71,11 @@ a {
 }
 
 .bg-gray {
-  background: #999999;
+  background: #999;
 }
 
 .text-gray {
-  color: #999999;
+  color: #999;
 }
 
 .no-margin {
@@ -214,7 +214,7 @@ a {
   padding: 15px 0;
   border: none;
   border-radius: 5px;
-  color: #ffffff;
+  color: #fff;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -275,10 +275,9 @@ a {
   background: #cdcdcd;
 }
 
-.editors-choice {
+aside {
   width: 250px;
-  right: -300px;
-  top: -250px;
+  right: 100px;
   position: absolute;
 }
 
@@ -406,11 +405,6 @@ footer li {
   padding: 10px 10px 10px 10px;
 }
 
-/*.footerLink {
-  color: #000;
-  text-decoration: none;
-}*/
-
 .wrap-theory {
   font-size: 13px;
   line-height: 16px;
@@ -427,7 +421,7 @@ footer li {
   position: relative;
 }
 
-.theory-by:before {
+.theory-by::before {
   width: 120px;
   height: 2px;
   background: #727272;
@@ -513,10 +507,6 @@ footer li {
   color: #343434;
 }
 
-.wrap-social-media a:hover {
-  background: #ffffff;
-}
-
 .bottom-bar {
   border: 1px solid #eee;
 }
@@ -556,12 +546,16 @@ footer li {
 .popular-articles li {
   margin: 0;
   padding: 15px 0;
-  border-bottom: 1px solid #797979
+  border-bottom: 1px solid #797979;
 }
 
 .popular-articles li a {
   font-size: 16px;
   color: #121211;
+}
+
+.wrap-social-media a:hover {
+  background: #fff;
 }
 
 .save-icon {
@@ -603,4 +597,18 @@ footer li {
 
 .footerMenuContainer {
   padding-left: 80px;
+}
+
+.fixed-footer {
+  padding: 5px 0 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  border-top: 2px solid #232323;
+}
+
+.fixed-footer a span {
+  padding: 0 20px;
+  color: #111;
 }
