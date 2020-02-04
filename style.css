@@ -536,6 +536,7 @@ footer li {
   float: left;
   margin-right: 1%;
   margin-bottom: 15px;
+  min-height: 290px;
 }
 
 .more-article-box .platform {
